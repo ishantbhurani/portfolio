@@ -1,8 +1,16 @@
+'use client'
+
+import { motion } from 'framer-motion'
 import SectionHeading from './section-heading'
 
 export default function About() {
   return (
-    <section className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'>
+    <motion.section
+      className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ delay: 0.175 }}
+    >
       <SectionHeading>About me</SectionHeading>
       <p className='mb-3'>
         My journey into tech started back in 2014 when I was first exposed to
@@ -44,6 +52,6 @@ export default function About() {
         When I'm not coding, I enjoy watching movies, vibing to old songs, and
         annoying my little brother.
       </p>
-    </section>
+    </motion.section>
   )
 }
