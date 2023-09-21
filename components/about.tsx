@@ -1,7 +1,9 @@
+import SectionHeading from './section-heading'
+
 export default function About() {
   return (
     <section className='mb-28 max-w-[45rem] text-center leading-8 sm:mb-40'>
-      <h2 className='text-3xl font-medium capitalize mb-8'>About me</h2>
+      <SectionHeading>About me</SectionHeading>
       <p className='mb-3'>
         My journey into tech started back in 2014 when I was first exposed to
         the <span className='font-bold'>Arduino microcontrollers</span>. Within
