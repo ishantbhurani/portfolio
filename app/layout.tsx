@@ -17,7 +17,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-gray-50 text-gray-950 relative`}>
+        <div className='bg-[#fbe2e3] absolute h-[31.25rem] w-[31.25rem] -z-10 rounded-full -top-24 right-44 blur-[10rem] sm:w-[68.75rem]'></div>
+        <div className='bg-[#dbd7fb] absolute h-[31.25rem] w-[50rem] -z-10 rounded-full -top-4 -left-[35rem] right-44 blur-[10rem] sm:w-[68.75rem] md:-left-[33rem] lg:-left-[28rem] xl:-left-60 2xl:-left-20'></div>
+        {children}
+      </body>
     </html>
   )
 }
