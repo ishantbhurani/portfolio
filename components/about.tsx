@@ -34,7 +34,7 @@ export default function About() {
         <span className='font-bold'>
           MERN (MongoDB, Express, React, Node.js)
         </span>
-        . I'm also familiar with{' '}
+        . I&apos;m also familiar with{' '}
         <span className='font-bold'>
           TypeScript, Tailwind, Redux, and Firebase.
         </span>
@@ -49,8 +49,8 @@ export default function About() {
         development process and understand how things fit together at the end.
       </p>
       <p>
-        When I'm not coding, I enjoy watching movies, vibing to old songs, and
-        annoying my little brother.
+        When I&apos;m not coding, I enjoy watching movies, vibing to old songs,
+        and annoying my little brother.
       </p>
     </motion.section>
   )
