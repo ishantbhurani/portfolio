@@ -23,8 +23,8 @@ export default function Experience() {
           primary: '#e5e7eb',
           secondary: 'white',
           cardBgColor: '#f3f4f6',
-          titleColor: 'black',
-          titleColorActive: 'black',
+          titleColor: '#374151',
+          titleColorActive: '#374151',
           cardTitleColor: 'black',
         }}
       >
