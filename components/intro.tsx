@@ -3,14 +3,18 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { useSectionInView } from '@/lib/hooks'
 import { BsArrowRight, BsGithub, BsLinkedin, BsTwitter } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
 import avatarImg from '@/public/avatarImg.jpg'
 
 export default function Intro() {
+  const { ref } = useSectionInView('Home', 0.5)
+
   return (
     <section
       id='home'
+      ref={ref}
       className='mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]'
     >
       <div className='flex items-center justify-center'>
