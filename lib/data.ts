@@ -64,31 +64,29 @@ export const projectsData = [
   {
     title: 'Money Tracker',
     description:
-      'A fully responsive MERN stack app to track your daily expenses. It supports JWT based email + password authentication, TypeScript on both frontend as well as backend, ',
+      'A fully responsive MERN stack app to track your daily expenses. It supports JWT based email & password authentication.',
     tags: [
       'React',
-      'TypeScript',
-      'Tailwind',
       'Redux',
       'Node.js',
       'Express',
       'MongoDB',
-      'Mongoose',
-      'JWT',
+      'Tailwind',
+      'TypeScript',
     ],
     imageUrl: moneytrackerImg,
   },
   {
     title: 'DeLuxxe',
     description:
-      'A fully responsive e-commerce app. It support Google authentication for login. It has a product carousel, products list, and slide-in cart modal. The data is fetched from DummyJSON API. I designed and developed this app.',
+      'A fully responsive e-commerce app. It support Google authentication. It has a product carousel, products list, and slide-in cart modal.',
     tags: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
     imageUrl: deluxxeImg,
   },
   {
     title: 'SuperChat',
     description:
-      'A fully responsive single-room chat app. It support Google authentication for login.',
+      'A fully responsive single-room chat app. It support Google authentication. It scrolls automatically when a new message arrives.',
     tags: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
     imageUrl: superchatImg,
   },
