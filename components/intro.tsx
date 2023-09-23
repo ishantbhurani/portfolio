@@ -83,7 +83,7 @@ export default function Intro() {
         <a
           href='/CV.pdf'
           download
-          className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack'
+          className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10'
         >
           Download CV{' '}
           <HiDownload className='opacity-60 group-hover:translate-y-1 transition' />
@@ -92,7 +92,7 @@ export default function Intro() {
         <a
           href='https://www.linkedin.com/in/ishant-bhurani'
           target='_blank'
-          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition borderBlack'
+          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60'
         >
           <BsLinkedin />
         </a>
@@ -100,7 +100,7 @@ export default function Intro() {
         <a
           href='https://github.com/ishantbhurani'
           target='_blank'
-          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition borderBlack'
+          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60'
         >
           <BsGithub />
         </a>
@@ -108,7 +108,7 @@ export default function Intro() {
         <a
           href='https://twitter.com/IShaunt'
           target='_blank'
-          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition borderBlack'
+          className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full text-[1.35rem] outline-none focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition borderBlack dark:bg-white/10 dark:text-white/60'
         >
           <BsTwitter />
         </a>
