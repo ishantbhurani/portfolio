@@ -74,6 +74,7 @@ export const projectsData = [
       'Tailwind',
       'TypeScript',
     ],
+    url: 'https://money-tracker-client.netlify.app',
     imageUrl: moneytrackerImg,
   },
   {
@@ -81,6 +82,7 @@ export const projectsData = [
     description:
       'A fully responsive e-commerce app. It support Google authentication. It has a product carousel, products list, and slide-in cart modal.',
     tags: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
+    url: 'https://deluxxe.netlify.app',
     imageUrl: deluxxeImg,
   },
   {
@@ -88,6 +90,7 @@ export const projectsData = [
     description:
       'A fully responsive single-room chat app. It support Google authentication. It scrolls automatically when a new message arrives.',
     tags: ['React', 'TypeScript', 'Tailwind', 'Firebase'],
+    url: 'https://superchat-ishant.netlify.app',
     imageUrl: superchatImg,
   },
 ] as const
