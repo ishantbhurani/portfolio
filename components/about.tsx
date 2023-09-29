@@ -36,12 +36,13 @@ export default function About() {
         <span className='font-bold'>Python</span> development. I have been
         exploring <span className='italic'>web development</span> for the past
         two years. My <span className='italic'>core stack</span> is{' '}
+        <span className='font-bold'>Next.js</span> and{' '}
         <span className='font-bold'>
           MERN (MongoDB, Express, React, Node.js)
         </span>
         . I&apos;m also familiar with{' '}
         <span className='font-bold'>
-          TypeScript, Tailwind, Redux, and Firebase.
+          TypeScript, Tailwind, Redux, Prisma, and Firebase.
         </span>
       </p>
 
@@ -52,10 +53,6 @@ export default function About() {
         <span className='font-bold'>most important skill</span> is the ability
         to <span className='font-bold'>look at the bigger picture</span> of the
         development process and understand how things fit together at the end.
-      </p>
-      <p>
-        When I&apos;m not coding, I enjoy watching movies, vibing to old songs,
-        and annoying my little brother.
       </p>
     </motion.section>
   )
